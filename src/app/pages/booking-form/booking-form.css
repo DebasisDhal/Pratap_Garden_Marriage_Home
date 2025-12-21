@@ -1,0 +1,70 @@
+.holeClass{
+    display: flex;
+    justify-content: center;
+
+}
+.card-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.p-card-body {
+    padding: var(--p-card-body-padding);
+    display: flex;
+    flex-direction: column;
+    gap: var(--p-card-body-gap);
+    align-items: center !important;
+}
+.field-gap {
+  margin-bottom: 22px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.full-width .p-inputtext {
+  width: 100%;
+}
+
+.p-inputtext {
+  height: 48px;          /* input height */
+  font-size: 27px;       /* text size */
+  padding: 0.75rem 0.9rem;
+}
+
+/* Footer buttons */
+.footer-btns {
+  display: flex;
+  justify-content: center;
+  gap: 0.8rem;
+  margin-top: 1rem;
+}
+
+/* Button look */
+:host ::ng-deep .p-button {
+  border-radius: 8px;
+  padding: 0.6rem 1.4rem;
+}
+.p-card {
+    font-size: large;
+    /* align-items: center; */
+    font-weight: bolder;
+    text-align: center;
+}
+:host ::ng-deep .p-inputnumber-input {
+  height: 48px;
+  font-size: 16px;
+  padding: 0.75rem 0.9rem;
+}
+.p-inputnumber ,.p-treeselect{
+    width: -webkit-fill-available;
+}
+.p-treeselect{
+    
+    height: 48px;
+}
+.p-datepicker {
+    display: grid;
+    height: 54px;
+}

@@ -1,0 +1,104 @@
+
+<div class="holeClass">
+    <div class="card-contet">
+
+        <p-card [style]="{ width: '25rem', overflow: 'hidden' }">
+      
+            <ng-template #title> ENTRY FORM </ng-template>
+            <ng-template #subtitle> Event Booking </ng-template>
+            <div class="field-gap full-width">
+              <p-floatlabel variant="on">
+                  <input pInputText id="on_label" autocomplete="off"  />
+                  <label for="on_label">Event Name</label>
+                </p-floatlabel>
+                
+            </div>
+            <div class="field-gap">
+              <p-floatlabel variant="on">
+    
+          <p-treeselect class="md:w-80 w-full"  [options]="eventTimeOptions" />
+
+
+                  <label for="on_label">Function Time</label>
+              </p-floatlabel>
+
+          </div>
+          <div class="field-gap">
+    <p-floatlabel variant="on">
+                <input pInputText id="on_label" autocomplete="off"  />
+                <label for="on_label">Address</label>
+            </p-floatlabel>
+          </div>
+          <div class="field-gap">
+    <p-floatlabel variant="on">
+   <p-datepicker dateFormat="dd.mm.yy" />
+    <label for="bookingDate">Booking Date</label>
+            </p-floatlabel>
+          </div>
+          <div class="field-gap">
+   <p-floatlabel variant="on">
+                <input pInputText id="on_label" autocomplete="off"  />
+                <label for="on_label">Address</label>
+            </p-floatlabel>
+          </div>
+
+          <div class="field-gap">
+   <p-floatlabel variant="on">
+                <p-inputNumber inputId="phone" [maxlength]="10"  [useGrouping]="false" />
+                <label for="on_label">Phone No</label>
+            </p-floatlabel>
+          </div>
+          <div class="field-gap">
+  <p-floatlabel variant="on">
+                <p-inputNumber inputId="phone" [maxlength]="10"  [useGrouping]="false" />
+                <label for="on_label">Alternative Phone No</label>
+            </p-floatlabel>
+          </div>
+          <div class="field-gap">
+    
+            <p-floatlabel variant="on">
+                <p-inputNumber inputId="amount"  mode="currency"
+      currency="INR"
+      locale="en-IN"  />
+                <label for="on_label">Total Amount</label>
+            </p-floatlabel>
+          </div>
+           
+      <div class="field-gap">
+  <p-floatlabel variant="on">
+    <p-inputNumber
+      inputId="amount"
+      mode="currency"
+      currency="INR"
+      locale="en-IN">
+    </p-inputNumber>
+    <label for="amount">Payment Amount</label>
+  </p-floatlabel>
+</div>
+
+        
+         <div class="field-gap">
+
+             <p-floatlabel variant="on">
+          <p-treeselect class="md:w-80 w-full"  [options]="paymentOptions" />
+                 <label for="on_label">Payment Mode</label>
+             </p-floatlabel>
+         </div>
+          
+                  <div class="field-gap">
+    <p-floatlabel variant="on">
+                <input pInputText id="on_label" autocomplete="off"  />
+                <label for="on_label">Transaction Id</label>
+            </p-floatlabel>
+          </div>
+      
+         <ng-template #footer>
+  <div class="footer-btns">
+    <p-button label="Save" severity="success"></p-button>
+    <p-button label="Reset" severity="info"></p-button>
+    <p-button label="Cancel" severity="danger"></p-button>
+  </div>
+</ng-template>
+        </p-card>
+    </div>
+</div>
