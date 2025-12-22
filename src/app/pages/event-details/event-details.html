@@ -1,0 +1,40 @@
+<div class="card">
+
+    <input pInputText [(ngModel)]="enteredPassword" type="text" pSize="large" placeholder="Large" (input)="checkPassword()" />
+
+    <p-table [value]="products" [tableStyle]="{ 'min-width': '50rem' }">
+        <ng-template #header>
+            <tr>
+                <th>Sr.No.</th>
+                <th>Event Name</th>
+                <th>Function Time</th>
+                <th>Booking Date</th>
+                <th>Address</th>
+                <th>Phone No</th>
+                <th>Alternative Phone No</th>
+                <th>Total Amount</th>
+                <th>Payment Amount</th>
+                <th>Payment Mode</th>
+                <th>Transaction Id</th>
+                <th>Entry Date</th>
+          
+            </tr>
+        </ng-template>
+        <ng-template #body let-product>
+            <tr>
+                <td>{{ product.id }}</td>
+                <td>{{ product.eventName }}</td>
+                <td>{{ product.functionTime.value }}</td>
+                <td>{{ product.dateOfBooking }}</td>
+                <td>{{ product.address }}</td>
+                <td>{{ product.phoneNo }}</td>
+                <td>{{ product.alternativePhoneNo }}</td>
+                <td>{{ isUnlocked ? product.totalAmount : '****' }}</td>
+                <td>{{ product.advanceAmount }}</td>
+                <td>{{ product.paymentMode.value }}</td>
+                <td>{{ product.transactionId }}</td>
+                <td>{{ product.todayDate }}</td>
+            </tr>
+        </ng-template>
+    </p-table>
+</div>

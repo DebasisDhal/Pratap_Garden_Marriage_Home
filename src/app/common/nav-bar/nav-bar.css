@@ -1,0 +1,17 @@
+@media(max-width:768px){
+    
+    .card{
+       display: none;
+    }
+  .card.flex.justify-center {
+       display: block;
+    }
+}
+@media(min-width:1024px){
+    .card{
+       display: block;
+    }
+  .card.flex.justify-center {
+       display: none;
+    }
+}

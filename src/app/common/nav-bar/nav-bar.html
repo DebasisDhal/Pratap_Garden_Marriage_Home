@@ -61,8 +61,8 @@
                     />
                 </svg>
                 <p-button label="Booking Form" routerLink="booking" text plain />
-                <p-button label="Edit" text plain />
-                <p-button label="View" text plain />
+                <p-button label="Event Details" routerLink="eventDetails" text plain />
+                <p-button label="Event Gallery" routerLink="eventLibary" text plain />
             </div>
         </ng-template>
 
@@ -82,10 +82,12 @@
 
 <div class="card flex justify-center">
     <p-drawer [(visible)]="visible" header="Drawer">
-           <p-button label="Files" text plain />
-                <p-button label="Edit" text plain />
+           <p-button label="Booking Form" routerLink="booking" text plain />
+                <p-button label="Event Details" routerLink="eventDetails" text plain />
                 <p-button label="View" text plain />
     </p-drawer>
 
     <p-button (click)="visible = true" icon="pi pi-bars" />
 </div>
+
+<router-outlet></router-outlet>
