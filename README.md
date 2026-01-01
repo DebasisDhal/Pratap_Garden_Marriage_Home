@@ -4,11 +4,10 @@ This project was generated using [Angular CLI](https://github.com/angular/angula
 
 ## Development server
 
-To start a local development server, run:
+<img width="1850" height="508" alt="image" src="https://github.com/user-attachments/assets/915782de-ded5-4e8b-ad19-b12f713c98d1" />
+<img width="521" height="994" alt="image" src="https://github.com/user-attachments/assets/7d658db2-6f26-4a78-af52-9e43b89f1b34" />
+![Uploading image.png…]()
 
-```bash
-ng serve
-```
 
 Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
 
