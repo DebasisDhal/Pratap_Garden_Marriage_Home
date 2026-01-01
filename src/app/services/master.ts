@@ -7,49 +7,49 @@ export class Master {
      getData() {
         return [
             {
-                itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria1.jpg',
+                itemImageSrc: 'https://thejarvi.com/wp-content/uploads/2023/02/MEHA0004C.jpg',
                 thumbnailImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria1s.jpg',
                 alt: 'Description for Image 1',
                 title: 'Title 1'
             },
             {
-                itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria2.jpg',
+                itemImageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi6FbuYRH8XqIkQidFrhpSGtFCdQVDv1spJg&s',
                 thumbnailImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria2s.jpg',
                 alt: 'Description for Image 2',
                 title: 'Title 2'
             },
             {
-                itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria3.jpg',
+                itemImageSrc: 'https://m.media-amazon.com/images/I/71AJr6Fc3KL._AC_UF1000,1000_QL80_.jpg',
                 thumbnailImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria3s.jpg',
                 alt: 'Description for Image 3',
                 title: 'Title 3'
             },
             {
-                itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria4.jpg',
+                itemImageSrc: 'https://m.media-amazon.com/images/I/71AJr6Fc3KL._AC_UF1000,1000_QL80_.jpg',
                 thumbnailImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria4s.jpg',
                 alt: 'Description for Image 4',
                 title: 'Title 4'
             },
             {
-                itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria5.jpg',
+                itemImageSrc: 'https://m.media-amazon.com/images/I/71AJr6Fc3KL._AC_UF1000,1000_QL80_.jpg',
                 thumbnailImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria5s.jpg',
                 alt: 'Description for Image 5',
                 title: 'Title 5'
             },
             {
-                itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria6.jpg',
+                itemImageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSwz1Ggkbe0pztRDmADrxG9SawIiTzs7hgLA&s',
                 thumbnailImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria6s.jpg',
                 alt: 'Description for Image 6',
                 title: 'Title 6'
             },
             {
-                itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria7.jpg',
+                itemImageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSwz1Ggkbe0pztRDmADrxG9SawIiTzs7hgLA&s',
                 thumbnailImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria7s.jpg',
                 alt: 'Description for Image 7',
                 title: 'Title 7'
             },
             {
-                itemImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria8.jpg',
+                itemImageSrc: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSwz1Ggkbe0pztRDmADrxG9SawIiTzs7hgLA&s',
                 thumbnailImageSrc: 'https://primefaces.org/cdn/primeng/images/galleria/galleria8s.jpg',
                 alt: 'Description for Image 8',
                 title: 'Title 8'

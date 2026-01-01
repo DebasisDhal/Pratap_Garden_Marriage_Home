@@ -51,8 +51,12 @@ export class EventLibrary  implements OnInit, OnDestroy {
     ];
 
     ngOnInit() {
-        this.photoService.getImages().then((images) => (this.images = images));
+        this.photoService.getImages().then((images) => {
+            this.images = images;
+                this.cd.detectChanges();
+    });
         this.bindDocumentListeners();
+
     }
 
     onThumbnailButtonClick() {
@@ -70,7 +74,7 @@ export class EventLibrary  implements OnInit, OnDestroy {
             this.openPreviewFullScreen();
         }
 
-        this.cd.detach();
+        // this.cd.detach();
     }
 
     openPreviewFullScreen() {

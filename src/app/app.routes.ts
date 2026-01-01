@@ -14,7 +14,7 @@ export const routes: Routes = [
 
             {
                 path:'',
-                component:Dashboard
+                component:EventDetails
             },
             {
                 path:'booking',
